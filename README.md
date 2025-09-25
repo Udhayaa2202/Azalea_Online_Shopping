@@ -1,2 +1,2 @@
-Azalea Online Shopping
-Integrated an paymet gateway
+- Azalea Online Shopping
+- Integrated an paymet gateway
