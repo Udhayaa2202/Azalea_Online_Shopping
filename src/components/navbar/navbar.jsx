@@ -16,7 +16,7 @@ export const NavBar = () => {
   const navigate = useNavigate();
 
   const activeStyle = ({ isActive }) => ({
-    color: isActive ? "var(--primary-color)" : "black",
+    color: isActive ? "var(--white-color)" : "var(--primary-color)",
     textDecoration: "none",
   });
 
@@ -34,7 +34,7 @@ export const NavBar = () => {
       <div className="nav">
         <div className="navbar">
           <a href="https://maps.app.goo.gl/YmEn4s8Z5FkQQGva6?g_st=com.google.maps.preview.copy">
-          <img src={logo} alt="logo" onClick={() => navigate("/")} /> </a>
+            <img src={logo} alt="logo" onClick={() => navigate("/")} /> </a>
           <div className="nav-options">
             <p>
               <NavLink style={activeStyle} to="/">
@@ -66,13 +66,15 @@ export const NavBar = () => {
             </div>
             <i
               onClick={() => navigate("/cart")}
-              class="fa-solid fa-cart-shopping"
+              className="fa-solid fa-cart-shopping"
+              style={{ color: "white" }}
             ></i>
             {cart.length > 0 && <p className="badge">{token && cart.length}</p>}
 
             <i
               onClick={() => navigate("/wishlist")}
               class="fa-solid fa-heart"
+              style={{ color: "white" }}
             ></i>
             {wishlist.length > 0 && (
               <p className="badge">{token && wishlist.length}</p>
@@ -82,6 +84,7 @@ export const NavBar = () => {
               <button
                 className="login-icon"
                 onClick={() => navigate("/profile")}
+                style={{ color: "white" }}
               >
                 <i class="fa-regular fa-user"></i>
               </button>
