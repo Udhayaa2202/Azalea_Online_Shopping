@@ -23,7 +23,7 @@ export const Footer = () => {
           </div>
 
           <div className="socials">
-            <h3>CONTACTS: </h3>
+            <h3>CONTACTS </h3>
             <a
               href="https://www.instagram.com/azalea_by_ramya/"
               target="_blank"
