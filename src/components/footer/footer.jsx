@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router";
-import logo from "../../image/Azalea_bg.jpg";
+import logo from "../../image/crop.jpg";
 import "./footer.css";
 
 export const Footer = () => {
