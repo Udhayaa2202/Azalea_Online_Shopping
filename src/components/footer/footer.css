@@ -19,7 +19,8 @@ footer .footer-div {
 }
 
 .footer-div .logo-footer img {
-  width: 60px;
+  width: 100px;
+  height: 90px;
   border-radius: 10%;
 }
 
