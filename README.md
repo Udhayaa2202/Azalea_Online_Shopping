@@ -1,2 +1,2 @@
 - Azalea Online Shopping
-- Integrated an paymet gateway
+<!-- - Integrated an paymet gateway --->
