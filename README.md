@@ -1,4 +1,4 @@
-# Attire
+<!--- # Attire
 
 [Attire](https://attire-store.netlify.app/) - An e-commerce website made with ReactJS.
 
@@ -43,4 +43,4 @@ git clone https://github.com/sweta1308/ecommerce-attire
 cd ecommerce-attire
 npm install
 npm start
-```
+```  -->
