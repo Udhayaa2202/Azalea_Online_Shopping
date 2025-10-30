@@ -4,7 +4,7 @@ Base code
 [Attire](https://attire-store.netlify.app/) - An e-commerce website made with ReactJS.
 
 
-https://github.com/sweta1308/ecommerce-attire/assets/105535990/64f60987-7060-491e-8219-234919ea375f
+https://github.com/sweta1308/ecommerce-attire/assets/105535990/64f60987-7060-491e-8219-234919ea375f-->
 
 
 ## Features
@@ -38,7 +38,7 @@ https://github.com/sweta1308/ecommerce-attire/assets/105535990/64f60987-7060-491
 * Font Awesome Icons
 * Razorpay Payment Gateway
 
-## How to Install and Run Locally
+<!--## How to Install and Run Locally
 ```JavaScript
 git clone https://github.com/sweta1308/ecommerce-attire
 cd ecommerce-attire
